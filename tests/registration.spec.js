@@ -8,7 +8,7 @@ test.describe('Registration Form Tests', () => {
   // ================================
   // ✅ POSITIVE TEST
   // ================================
-  test('Valid User Registration', async ({ page }) => {
+  test('@positive Valid User Registration', async ({ page }) => {
     const form = new RegistrationFormFunctions(page);
     const user = generateUserData();
 
@@ -32,7 +32,7 @@ test.describe('Registration Form Tests', () => {
   // ======================================
   for (const [scenario, userData] of Object.entries(invalidUsers)) {
 
-    test(`${scenario} scenario`, async ({ page }) => {
+    test(`@negative ${scenario} scenario`, async ({ page }) => {
 
       const form = new RegistrationFormFunctions(page);
 

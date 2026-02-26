@@ -58,8 +58,7 @@ export default class RegistrationFormHelper {
   }
 
   async expectSubmissionBlocked() {
-  await expect(this.registrationForm.modalTitle).not.toBeVisible();
-}
-
+    await expect(this.registrationForm.modalTitle).not.toBeVisible();
+  }
 
 }
