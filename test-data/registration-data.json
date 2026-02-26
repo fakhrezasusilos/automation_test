@@ -1,0 +1,30 @@
+{
+  "emptyData": {
+    "firstName": "",
+    "lastName": "",
+    "email": "invalid-email",
+    "gender": "Male",
+    "mobile":""
+  },
+  "invalidMobile": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "gender": "Male",
+    "mobile": "12345"
+  },
+  "symbolInput": {
+    "firstName": "John@",
+    "lastName": "Doe#",
+    "email": "#####",
+    "gender": "Male",
+    "mobile": "@@@@@@@@@@"
+  },
+  "scriptInput": {
+    "firstName": "<script>alert('XSS')</script>",
+    "lastName": "<script>alert('XSS')</script>",
+    "email": "john.doe@example.com",
+    "gender": "Male",
+    "mobile": "1234567890"
+  }
+}
