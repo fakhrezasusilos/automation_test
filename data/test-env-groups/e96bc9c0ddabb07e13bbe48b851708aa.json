@@ -1,1 +1,1 @@
-{"id":"e96bc9c0ddabb07e13bbe48b851708aa","fullName":"registration.spec.js:35:5","name":"@negative invalidMobile scenario","status":"passed","testResultsByEnv":{"default":"b4a3da67e8b5682113dc94a5573f4680"}}
+{"id":"e96bc9c0ddabb07e13bbe48b851708aa","fullName":"registration.spec.js:35:5","name":"@negative invalidMobile scenario","status":"broken","testResultsByEnv":{"default":"848ad21bdfc4459f5db3e54a52a3b52c"}}
