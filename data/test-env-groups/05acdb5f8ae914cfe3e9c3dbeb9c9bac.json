@@ -1,1 +1,1 @@
-{"id":"05acdb5f8ae914cfe3e9c3dbeb9c9bac","fullName":"registration.spec.js:11:3","name":"@positive Valid User Registration","status":"passed","testResultsByEnv":{"default":"0a89f5a5f02656eb899471ceb38a223e"}}
+{"id":"05acdb5f8ae914cfe3e9c3dbeb9c9bac","fullName":"registration.spec.js:11:3","name":"@positive Valid User Registration","status":"failed","testResultsByEnv":{"default":"994823d3dae53c1c13c6ab30588a60df"}}
