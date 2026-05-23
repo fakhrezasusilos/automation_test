@@ -1,7 +1,7 @@
 
 === Filling the registration form with user data ===
 
-=== User Data: {"firstName":"Morris","lastName":"Rippin","email":"Bert_Dibbert@gmail.com","gender":"Other","mobile":"0868167609"} ===
+=== User Data: {"firstName":"Rosie","lastName":"Beer","email":"Cleora_Heaney@hotmail.com","gender":"Male","mobile":"0898259197"} ===
 
 === Filling First Name ===
 
