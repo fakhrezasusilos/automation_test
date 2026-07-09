@@ -1,1 +1,1 @@
-{"id":"3ea459d34b4296b94aa342fb5080cf38","fullName":"registration.spec.js:35:5","name":"@negative symbolInput scenario","status":"passed","testResultsByEnv":{"default":"2579e9af72d31523b1762d0659dc2d7b"}}
+{"id":"3ea459d34b4296b94aa342fb5080cf38","fullName":"registration.spec.js:35:5","name":"@negative symbolInput scenario","status":"broken","testResultsByEnv":{"default":"eb9211f53499d95f1e7863afebc54d5a"}}
