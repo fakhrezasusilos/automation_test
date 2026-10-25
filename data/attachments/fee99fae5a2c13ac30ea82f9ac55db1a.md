@@ -1,0 +1,197 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - text: Elements
+        - img [ref=e22]
+      - generic [ref=e24]:
+        - generic [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]:
+            - img [ref=e29]
+            - text: Forms
+          - img [ref=e35]
+        - list [ref=e38]:
+          - listitem [ref=e39] [cursor=pointer]:
+            - link "Practice Form" [ref=e40]:
+              - /url: /automation-practice-form
+              - img [ref=e41]
+              - text: Practice Form
+      - generic [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]:
+          - img [ref=e48]
+          - text: Alerts, Frame & Windows
+        - img [ref=e53]
+      - generic [ref=e57] [cursor=pointer]:
+        - generic [ref=e58]:
+          - img [ref=e60]
+          - text: Widgets
+        - img [ref=e66]
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]:
+          - img [ref=e73]
+          - text: Interactions
+        - img [ref=e78]
+      - generic [ref=e82] [cursor=pointer]:
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - text: Book Store Application
+        - img [ref=e90]
+    - generic [ref=e93]:
+      - heading "Practice Form" [level=1] [ref=e94]
+      - heading "Student Registration Form" [level=5] [ref=e95]
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e99]: Name
+          - textbox "First Name" [ref=e101]
+          - textbox "Last Name" [ref=e103]
+        - generic [ref=e104]:
+          - generic [ref=e106]: Email
+          - textbox "name@example.com" [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]: Gender
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - radio "Male" [ref=e113]
+              - generic [ref=e114]: Male
+            - generic [ref=e115]:
+              - radio "Female" [ref=e116]
+              - generic [ref=e117]: Female
+            - generic [ref=e118]:
+              - radio "Other" [ref=e119]
+              - generic [ref=e120]: Other
+        - generic [ref=e121]:
+          - generic [ref=e123]: Mobile(10 Digits)
+          - textbox "Mobile Number" [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e128]: Date of Birth
+          - textbox [ref=e132]: 25 Oct 2026
+        - generic [ref=e133]:
+          - generic [ref=e135]: Subjects
+          - generic [ref=e137]:
+            - log [ref=e139]
+            - combobox [ref=e143]
+        - generic [ref=e146]:
+          - generic [ref=e148]: Hobbies
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - checkbox "Sports" [ref=e151]
+              - generic [ref=e152]: Sports
+            - generic [ref=e153]:
+              - checkbox "Reading" [ref=e154]
+              - generic [ref=e155]: Reading
+            - generic [ref=e156]:
+              - checkbox "Music" [ref=e157]
+              - generic [ref=e158]: Music
+        - generic [ref=e159]:
+          - generic [ref=e161]: Picture
+          - button "Choose File" [ref=e163] [cursor=pointer]
+        - generic [ref=e164]:
+          - generic [ref=e166]: Current Address
+          - textbox "Current Address" [ref=e168]
+        - generic [ref=e169]:
+          - generic [ref=e171]: State and City
+          - generic [ref=e173]:
+            - log [ref=e175]
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: Select State
+                - combobox [ref=e180]
+              - img [ref=e184]
+          - generic [ref=e186]:
+            - generic:
+              - log
+              - generic:
+                - generic:
+                  - generic: Select City
+                - generic:
+                  - generic:
+                    - img
+        - button "Submit" [ref=e189] [cursor=pointer]
+    - generic [ref=e195]:
+      - iframe [ref=e198]:
+        - generic [active]:
+          - generic [ref=f7e1]:
+            - generic [ref=f7e2]:
+              - generic:
+                - img [ref=f7e6] [cursor=pointer]
+                - button [ref=f7e10] [cursor=pointer]:
+                  - img [ref=f7e11]
+            - generic [ref=f7e19]:
+              - iframe [ref=f7e20]:
+                - generic [active] [ref=f13e1]:
+                  - link:
+                    - /url: javascript:void(0);
+                    - generic [ref=f13e3] [cursor=pointer]:
+                      - img [ref=f13e7]
+                      - img [ref=f13e9]
+                      - img [ref=f13e11]
+                      - img [ref=f13e13]
+                      - img [ref=f13e15]
+                      - img [ref=f13e17]
+                      - img [ref=f13e19]
+                      - img [ref=f13e21]
+                      - img [ref=f13e23]
+                      - generic [ref=f13e24]:
+                        - img [ref=f13e25]
+                        - img [ref=f13e27]
+                        - img [ref=f13e29]
+                      - img [ref=f13e31]
+                      - img [ref=f13e33]
+              - link "Privacy Notification" [ref=f7e22] [cursor=pointer]:
+                - /url: https://www.flashtalking.com/consumer-privacy
+                - img [ref=f7e23]
+          - iframe
+      - iframe [ref=e201]:
+        - generic [active]:
+          - generic [ref=f5e1]:
+            - generic [ref=f5e2]:
+              - generic:
+                - img [ref=f5e6] [cursor=pointer]
+                - button [ref=f5e10] [cursor=pointer]:
+                  - img [ref=f5e11]
+            - generic [ref=f5e19]:
+              - link [ref=f5e20] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CyiUvSq3datihEfmiur8PvKf0kAbz3oa2igHjoOHlrhaK_aCEwwEQASDG-9Z5YMm-yYbEo8gXoAGx-v_qAsgBCagDAcgDmwSqBIECT9CFESFPj-sXc9hmLbKqkd0nbFAMIzJ5TaOx-O9tDlloCbwimh_3eo357PCiUPTRTsQfKyKpl0HZRDc1bXfZqO7BHTsqCH7GLAp-FUcXDOWnfi1Y54pz0ad71l_AwJg66hryaIjGZw8wRVD3l6cR262qhAX6PCKleglcS8_K9jA1cZ2L3r4HbbeKolKr8d7Nuuiy2PL_3u4TIXluibgca8Vyiq14Gtr0ZbBItkiItqRSdXsPAJuVQS0b9j92mF1trcv1sEYeUmrSAXrVUgsKM2FuAlAckbejWKeiOHvq-zjxH6D_fNyBQznwN7Afn_ythF50G8sKccWqrC2gAx3602HABLHvseHYBeAEA4gF9JTw31iQBgGgBk2AB7eFgJUBqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0ggyCIBhEAEYHTIIioKAgICAgAg6D4BAgMCAgICAqIACqIOQGEi9_cE6WNXkravQ1JcDYAHyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKACgOYCwHICwGADAGiDAgqBgoE8N-xAqoNAlVT4g0TCNyTrqvQ1JcDFXmR7gEdvBMdYuoNEwjFlK-r0NSXAxV5ke4BHbwTHWLwDQGIDv___________wGwE-qa4yXYEwvYFAHQFQHKFgIKAPgWAYAXAbIXEBgCKgo2MTY4NTc2NTA1UAaqGBcJAAAAABBGDEESCjYxNjg1NzY1MDUYAbIYCRICnWMYTSIBANAZAQ&ae=1&num=1&cid=CAQShgIAQM4h3ANJNAH0k8VtfBzWzEiI7SJGdowhB2SoH07EHba20DIlo9HSqEuLEf6Pky-ZLz9hpYsi5QhnJ-f0bhhhCm0CDZS37elsaRoA4fhFX4AmkOXBTZgCKJ6Lr_KGPPLzIPsJVORB8AJKglJJ7eXDXM3SsgaBv71NwrvkWQDTbMefMPM0xhJGwO7Gg6pbEPLzqOWAH7Zg26uQOLDHyr0KF79qfvowwLp3740CBByJjI7UX4LK55U7eLXn8GdpEa0E3c9AY1R6hEAzwK1yBsvlOjf63X6eTlkw-W5cLsrwiX_fai3YX65ZEvVGZi_ayJlhRKlHE26kyEUnFVhid_f5lzqPVW9LGAE&sig=AOD64_22sxRE5dto3SaGEzYtPcbqlobl0g&dbm_c=AKAmf-C3_69k8uC2EXgda9r_qKfK7DmctYeBPxpOBtWOL1S2OoFAkT6LIes-0pWPSkyVgNBrvPBXDDgQCZbz12esvbyVeOBEBxzg7x-I-rSQSa4ah9-qt2IbSdkLUKhkF70zBbBFkHU8hyFjWJp9ozZFJfuhzA3ImQtfIoKAZSexPltrmlBEYqIRIYHhSHGaWaOrC7C2hhGQMYZUFfyzQtFuo6MAa4u36PK5L0bGPkshpt7WQywZWD1rcFu222DaC7StcfYUYltHR7h_YiuZJk0TW1pu8IKNK09_BTxPYYrrhsvj48x_loT9gvy8tZsKSUSRsjRZOhau&cry=1&dbm_d=AKAmf-AzGAKOVtnLYFF9-7r_cvpUhu3-7tEhYqosWkKzrOeCJ7NG-wm2cMWxPldq7FLASpl2YTgNBSrotXACNA8zxEY281IB0YmcFV5_hOcEzxvsMpzIJhQr0XFeG78MZB1C0HnaNc5-UCRe2YEgnFmBZHT18SGedQMmWjSwcnLQJI63JXBlRtnHFXs4LOxW8eEzgfPDPA8xrT6VMS-QRjhq1M2ndVn92U19EVezUZKhHfLGzdtOy30-E1fXlKCS0yCqLsg_c539lrT7W46FbSuRlkMt1-pJB8mX8hmjTcWvPwAytmTqr6EUyfmYZSpUn09LIwBY9KmKDYQ6r0TnlAZFyWnmjh5jspI6fx9LkxJ5krYHywULYjhnAplPvGUQOHE8KI0os-Jrt-v8GGMLSYyPm128zVLlOQ8zMEyl6ykxFLrISORFACJuKtnk7MOTzpOVxFaseMa9EKZlauEiA4vU9-cPjq7PLIUMf4iBnUHQNnkU8CRDwDK9teENh4-hsXpAhnPnc_FfzvxI_33NTryqaoA_DNph2_1584xKqcl2lD-Pub-D8ZdYu4FvqpgvUdnJoyPnGyMwSnhw3bCXV8it1YaT3OtVpfV_IewKxBOk7fp4JCQNAgM0DLuhhPmhEDQ9-rrf-t2PK6wJJIedDY5PXW2gxw7yYYdEU04lyXSt5kh-zqZxLrwZjftLqaSHlwkcIgNVyWy5Kaze2wbbEEL2JVvxj-CeZe1UcgJq3rw13TfUBgfEEYE&adurl=https://servedby.flashtalking.com/click/8/225291;10778688;6327754;211;0/?us_privacy=!!US_PRIVACY!&ft_impID=FE24CB83-9664-D4B2-68E2-5135258951B2&ft_custom=ABAjH0gFKGMmI0cX3F30yopi6xQt&g=68721782FB924E&random=929906.2659440188&ft_width=300&ft_height=250&url=https://www.adobe.com/acrobat/free-trial-download.html?sdid=3SH19YWX&mv=display&mv2=display
+              - iframe [ref=f5e21]:
+                - generic [active]:
+                  - link:
+                    - /url: javascript:void(0);
+                    - generic [ref=f14e2] [cursor=pointer]:
+                      - img [ref=f14e6]
+                      - img [ref=f14e8]
+                      - img [ref=f14e10]
+                      - img [ref=f14e12]
+                      - img [ref=f14e14]
+                      - generic:
+                        - img [ref=f14e16]
+                        - img [ref=f14e18]
+                        - img [ref=f14e20]
+                      - img [ref=f14e22]
+                      - generic:
+                        - img [ref=f14e24]
+                        - img [ref=f14e26]
+                        - img [ref=f14e31]
+                      - generic [ref=f14e32]:
+                        - generic:
+                          - img
+                        - img [ref=f14e34]
+                        - img [ref=f14e36]
+                        - img [ref=f14e38]
+                      - generic:
+                        - img
+              - link "Privacy Notification" [ref=f5e23] [cursor=pointer]:
+                - /url: https://www.flashtalking.com/consumer-privacy
+                - img [ref=f5e24]
+          - iframe
+  - contentinfo [ref=e202]:
+    - generic [ref=e203]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
